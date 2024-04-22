@@ -293,3 +293,6 @@ class MyClass:
     
 # Creating an object of the class
 my_object = MyClass()
+
+# Calling the method
+print (my_object.my_method())
