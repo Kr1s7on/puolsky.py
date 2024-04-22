@@ -263,3 +263,33 @@ def my_function(x, *args, **kwargs):
 print (my_function(10, 5, 15, y = 5, z = 15))
 
 
+# Classes and Objects
+
+# Defining a class
+class MyClass:
+    x = 10
+
+# Creating an object of the class
+my_object = MyClass()
+
+# Accessing the class variable
+print (my_object.x)
+
+# Defining a class with a constructor
+class MyClass:
+    def __init__(self, x):
+        self.x = x
+
+# Creating an object of the class
+my_object = MyClass(10)
+
+# Accessing the class variable
+print (my_object.x)
+
+# Defining a class with a method
+class MyClass:
+    def my_method(self):
+        return "Hello World!"
+    
+# Creating an object of the class
+my_object = MyClass()
