@@ -8,4 +8,4 @@ breadth = int(input("Enter the breadth of the rectangle: "))
 area = length * breadth
 
 # Displaying the area of the rectangle
-print ("The area of the rectangle is", str(area)+' meters squared')
+print ("The area of the rectangle is", str(area)+' meters squared!')
