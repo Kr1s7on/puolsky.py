@@ -8,9 +8,9 @@
 # BMI formula:
 # weight(kg) /(height(m) X height(m))
 
-name = input("Enter your name: ")
+name = str(input("Enter your name: "))
 
-adminNumber = input("Enter your admin number: ")
+adminNumber = str(input("Enter your admin number: "))
 
 age = int(input("Enter your age: "))
 
