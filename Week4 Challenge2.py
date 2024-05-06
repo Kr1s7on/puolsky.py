@@ -14,14 +14,15 @@ adminNumber = input("Enter your admin number: ")
 
 age = int(input("Enter your age: "))
 
-gender = input("Male/Female: ")
+gender = input("male/female: ")
 
 weight = float(input("Enter your weight in kg: "))
 
 height = float(input("Enter your height in meters: "))
 
-bmi = weight / (height * weight)
+bmi = weight / (height * height)
 
-print ("Hello, " + str(name) + " (" + str(adminNumber) + ")" + "!\n")
+print ("\nHello, " + str(name) + " (" + str(adminNumber) + ")" + "!\n")
 print ("You are a " + str(age) + " year old " + gender + ".\n")
-print ("Your BMI is " + str(bmi) + ".")
+print ("Your BMI is %.2f" % (bmi) + ".\n")
+print ("You are super fat!\n")
