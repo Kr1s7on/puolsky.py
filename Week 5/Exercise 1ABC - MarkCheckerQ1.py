@@ -18,6 +18,7 @@
 # ======================================================================================
 
 # Basic Level Solution
+
 # Input examination mark from user
 examination_mark = float(input("Enter your examination mark: "))
 
@@ -33,6 +34,7 @@ else:
 # ======================================================================================
 
 # Advanced Level Solution
+
 # def get_examination_mark():
 #     while True:
 #         try:
