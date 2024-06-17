@@ -31,4 +31,5 @@ for i in range(start_number, end_number + 1):
     if i % 5 != 0:
         total += i
 
+
 print("Total:", total)
