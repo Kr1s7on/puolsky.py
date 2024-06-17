@@ -4,7 +4,7 @@
 print("These are my compiled notes, practicals, and labs.")
 ```
 
-```
+```python
 by Marcin Glinski
                             __..._              
                         ..-'      o.            
