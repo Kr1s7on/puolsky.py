@@ -1,4 +1,4 @@
-# Python-Notebook
+# puolsky.py
 
 ```python
 print("These are my compiled notes, practicals, and labs.")
