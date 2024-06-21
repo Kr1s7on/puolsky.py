@@ -6,16 +6,66 @@
     <title>Handwritten Digit Recognition</title>
     <style>
         canvas {
-            border: 1px solid black;
+            border: 1px solid rgb(234, 234, 234);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
             background-color: white; /* Set canvas background to white */
+            margin-top: 20px;
+            cursor: crosshair;
+            display: flex;
+            margin: 0 auto;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: white;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: 0.4s;
+            border: rgb(222, 222, 222) solid 1px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            width: 100px;
+            font-weight: 200;
+        }
+
+        button:hover {
+            background-color: black;
+            color: white;
+        }
+
+        #clear, #predict {
+            margin-right: 10px;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            bottom: 0;
+            padding-top: 40vh;
         }
     </style>
 </head>
 <body>
     <h1>Draw a Digit</h1>
-    <canvas id="canvas" width="280" height="280"></canvas>
-    <button id="clear">Clear</button>
-    <button id="predict">Predict</button>
+    <canvas id="canvas" width="300" height="300"></canvas>
+    <div class="container">
+        <button id="clear">Clear</button>
+        <button id="predict">Predict</button>
+    </div>
     <p id="result"></p>
 
     <script>
@@ -79,5 +129,9 @@
             document.getElementById('result').textContent = `Predicted Digit: ${result.digit}`;
         });
     </script>
+
+    <footer>
+        <p>&copy; 2024 CNN Handwriting</p>
+    </footer>
 </body>
 </html>
