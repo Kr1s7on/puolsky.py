@@ -37,8 +37,14 @@ def search_film(films, query):
     last_query = query
     last_results = results
 
+# Print a welcome message
+print("LeBron James is the real GOAT, read that again.")
+
+# Load the films from the CSV file
 films = load_films("movies.csv")
 
-search_term = input("Enter a search term: ")
+# Ask the user for a search term
+search_term = input("Search for a movie: ")
 
+# Search for the term in the films
 search_film(films, search_term)
