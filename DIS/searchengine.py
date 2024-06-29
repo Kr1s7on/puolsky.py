@@ -10,7 +10,7 @@ def load_films(file_path):
         reader = csv.DictReader(file)
         for row in reader:
             films.append(row)
-    return films
+    return films    
 
 def search_film(films, query):
     global last_query, last_results
