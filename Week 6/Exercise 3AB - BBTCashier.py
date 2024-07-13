@@ -90,12 +90,12 @@ total_payable = tea_prices[tea] + flavouring_prices[flavouring] + topping_prices
 
 # Apply promotions if conditions met
 if tea == 3 and flavouring == 2 and topping == 1:
-    
+
     # Apply a 50% discount on the tea and a 30% discount on the topping if Pouchong Tea, Cream flavouring, and Coconut Jelly topping
     total_payable -= tea_prices[3] * 0.5 + topping_prices[1] * 0.3
 
 elif tea == 1 or flavouring == 1 or topping == 2:
-    
+
     # If user chose Oolong Tea, Honey flavouring, or Grass Jelly topping, -> 10% discount
     total_payable *= 0.9
 
